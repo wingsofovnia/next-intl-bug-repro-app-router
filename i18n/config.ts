@@ -1,7 +1,6 @@
-import { AbstractIntlMessages } from 'use-intl'
-import { getRequestConfig, RequestConfig } from 'next-intl/server'
-import { createNavigation } from 'next-intl/navigation'
-import { defineRouting } from 'next-intl/routing'
+import {AbstractIntlMessages} from 'use-intl'
+import {getRequestConfig, RequestConfig} from 'next-intl/server'
+import {defineRouting} from 'next-intl/routing'
 
 const Locales: Locale[] = [
   {
@@ -66,4 +65,3 @@ export const intlRouting = defineRouting({
   defaultLocale: defaultLocaleCode,
 })
 
-export const intlNavigation = createNavigation(intlRouting)
