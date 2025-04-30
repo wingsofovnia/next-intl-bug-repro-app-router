@@ -1,7 +1,7 @@
 import createMiddleware from 'next-intl/middleware';
-import {routing} from './i18n/routing';
+import { intlRouting } from '@/i18n/config'
 
-export default createMiddleware(routing);
+export default createMiddleware(intlRouting);
 
 export const config = {
   // Match all pathnames except for
