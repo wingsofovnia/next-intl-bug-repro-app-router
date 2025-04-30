@@ -3,3 +3,5 @@
 .DS_Store
 tsconfig.tsbuildinfo
 .vscode
+.idea
+*.iml
